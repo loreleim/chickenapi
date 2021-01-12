@@ -3,6 +3,10 @@
 		"auraucana": {
             "color": ["white", "brown"],
             "eggs": "blue"
+        },
+        "australorp": {
+            "colors": ["black"],
+            "eggs": "brown"
         }
     }
 }

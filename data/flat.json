@@ -6,9 +6,9 @@
             "egg": "blue"
         },
         {
-            "type": "auraucana",
-            "colors": ["white", "brown"],
-            "egg": "blue"
+            "type": "Australorp",
+            "colors": ["black"],
+            "egg": "brown"
         }
     ]
 }
