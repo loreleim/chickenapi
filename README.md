@@ -6,6 +6,14 @@ A free way to host simple text-based data.
 
 Guide on how to implement your own publically hosted API. With utilization of the github pages service, individuals can call on a url to .fetch or GET json data. To test the viability of the method, utilize [this link](https://loreleim.github.io/publicapi/data/data.json) in your .fetch() or get request. This dataset features chicken breeds that hatch colorful eggs.
 
+## Technology Utilized
+
+- [ ] JSON
+- [ ] Vanilla HTML
+- [ ] Javascript
+
+Further utilization of a React frontend can prettify our .json urls into routes!
+
 ## Designing Your Own
 
 - [ ] create a new github repo
