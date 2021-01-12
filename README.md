@@ -47,3 +47,5 @@ Again, those frameworks come at the mercy of pay per read/write. But they enable
 Google Cloud Next. [Designing Quality APIs.](https://www.youtube.com/watch?v=P0a7PwRNLVU) 26 July 2018.
 
 Grace Hopper Academy. [REST Tutorial - How to Design a Good RESTful API.](https://www.youtube.com/watch?v=sMKsmZbpyjE) 2 March 2017.
+
+StackExchange. [Flat or Nested JSON for hierarchal data](https://softwareengineering.stackexchange.com/questions/350623/flat-or-nested-json-for-hierarchal-data) 10 Jun 2017.
