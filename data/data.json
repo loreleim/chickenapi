@@ -1,6 +1,6 @@
 {
     "chickens": {
-		"Auraucana": {
+		"auraucana": {
             "color": ["white", "brown"],
             "eggs": "blue"
         }
