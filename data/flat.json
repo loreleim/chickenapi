@@ -1,0 +1,14 @@
+{
+    "chickens": [
+        {
+            "type": "auraucana",
+            "colors": ["white", "brown"],
+            "egg": "blue"
+        },
+        {
+            "type": "auraucana",
+            "colors": ["white", "brown"],
+            "egg": "blue"
+        }
+    ]
+}
