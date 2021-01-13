@@ -1,5 +1,5 @@
-const fetchPromise = fetch("https://loreleim.github.io/publicapi/data/flat.json");
-console.log(fetchPromise);
+const fetchPromise = fetch("https://loreleim.github.io/chickenapi/data/flat.json");
+//console.log(fetchPromise);
 
 fetchPromise
 .then((response) => {
@@ -14,15 +14,18 @@ fetchPromise
     return response.json();
 })
 .then((json) => {
-    console.log(json.chickens[0].type);
-    const name = json.chickens[0].type;
+    //console.log(json);
 
-    //We would do this differently in React
     const main = document.querySelector("main");
-    main.innerHTML += `
-    <h1>${name}</h1>
-    `;
+    main.innerHTML += "<h1>Chickens Available</h1>"
+    json.chickens.map((json) => (
+        main.innerHTML += `
+        <div>
+        </div>
+        <h1>${json.type}</h1>
+        `
+    ))
 })
 .catch((error) => console.log (error));
 
-console.log("Fetch initiated!");
+//console.log("Fetch initiated!");
